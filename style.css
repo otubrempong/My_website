@@ -969,6 +969,10 @@ h5 {
   font-family: "Poppins";
 }
 /* Styling the scrollbar elements */
+ .theBody {
+   overflow: hidden;
+   ackground-color: whitesmoke;
+  }
 .overflow-container {
   border: 2px solid black;
 }
@@ -1001,6 +1005,9 @@ h5 {
   border: 2px solid rgba(0, 0, 0, 0.774);
 }
 @media (max-width: 567px) {
+  .theBody {
+   overflow: scroll;
+  }
   .main-text {
     border: none;
   }
