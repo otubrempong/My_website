@@ -886,6 +886,14 @@ h5 {
   .overlay {
     transform: scale(0.79);
   }
+   .img-here:before {
+    content: "";
+    position: none;
+    width: 0px;
+    height: 0px;
+    border-radius: 0px;
+    bottom: 0;
+  }
   h1 {
     margin-top: 100px;
   }
@@ -931,6 +939,14 @@ h5 {
     border-radius: 4px;
     bottom: 10%;
     transform: translate(-12px, 35px);
+  }
+   .img-here:before {
+    content: "";
+    position: none;
+    width: 0px;
+    height: 0px;
+    border-radius: 0px;
+    bottom: 0;
   }
   .intro-text {
     margin-top: 20px;
