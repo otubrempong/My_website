@@ -1004,7 +1004,7 @@ h5 {
 .main-text {
   border: 2px solid rgba(0, 0, 0, 0.774);
 }
-@media(max-widdth:768px){
+@media (max-widdth:768px){
   .theBody {
    overflow: scroll;
   }
