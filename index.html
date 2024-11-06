@@ -5,21 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="Images/e.svg">
+    <link rel="icon" href="Images/e.svg" />
     <title>Evans Tetteh Owusu</title>
   </head>
   <body onload="myFunction()">
+    <!-- onload="myFunction() -->
     <!--Preloader-->
     <div class="preloader"></div>
     <!--Header-->
     <header class="container-fluid p-0 fixed-top">
-      <a class="close-navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <a
+        class="close-navbar-toggler collapsed"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
       </a>
       <nav class="container navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand mx-1 my-0 p-0" href="#"><img class="new-img"src="Images/logo-2.png"></a>
+          <a class="navbar-brand mx-1 my-0 p-0" href="#"
+            ><img class="new-img" src="Images/logo-2.png"
+          /></a>
           <button
             class="navbar-toggler mx-2 d-lg-none flex-column justify-content-around collapsed"
             type="button"
@@ -40,14 +56,20 @@
                   ><i class="fa-solid fa-house links"></i>Home</a
                 >
               </li>
-              <li class="nav-item" >
-                <a class="nav-link mx-2" href="#about"><i class="fa-solid fa-user links"></i>About</a>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#about"
+                  ><i class="fa-solid fa-user links"></i>About</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-2" href="#projects"><i class="fa-solid fa-laptop-file links"></i>Projects</a>
+                <a class="nav-link mx-2" href="#projects"
+                  ><i class="fa-solid fa-laptop-file links"></i>Projects</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-2" href="#contacts"><i class="fa-solid fa-phone links"></i>Contact</a>
+                <a class="nav-link mx-2" href="#contacts"
+                  ><i class="fa-solid fa-phone links"></i>Contact</a
+                >
               </li>
             </ul>
           </div>
@@ -60,125 +82,385 @@
         class="container-fluid main d-flex align-items-center justify-content-between flex-column unique"
         id="home"
       >
-        <div class="next-top my-3"></div>
+        <div class="next-top my-2"></div>
         <div class="row fist container p-0">
-          <div
-            class="row-first col-md-6 flex-column"
-            style="height:auto;"
-          >
-            <h1 class="display-2 heading fw-bold">
+          <div class="row-first col-md-6 flex-column" style="height: auto">
+            <h1 class="display-2 heading fw-bold" id="typewriter">
               Hey there,<br /><span class="display-1"> I'm Evans </span>
             </h1>
-            <p class="intro-text"> Artificial Intelligence Enthusiast <span class="display-6 mx-1">&</span><br> Undergraduate Student Reasearcher </AI></p>
-            <div class="read-contact d-flex align-items-center justify-content-end anim-one">
-              <button class="btn-read d-flex align-items-center justify-content-center fw-bold text-center"><a href="#about" role="button"
-                >Read More</a
-              ></button></button>
-              <button class="btn-contact d-flex align-items-center justify-content-center fw-bold"><a href="#contacts" role="button"
-                >Contact Me</a
-              ></button>
+            <h3 class="intro-text">
+              Artificial Intelligence Enthusiast<br />
+              <span class="display-6 mx-1">&</span>
+              Graduate Student Researcher
+            </h3>
+            <div
+              class="read-contact d-flex align-items-center justify-content-end anim-one"
+            >
+              <button
+                class="btn-read d-flex align-items-center justify-content-center fw-bold text-center"
+              >
+                <a href="#about" role="button">Read More</a>
+              </button>
+              <button
+                class="btn-contact d-flex align-items-center justify-content-center fw-bold"
+              >
+                <a href="#contacts" role="button">Contact Me</a>
+              </button>
             </div>
           </div>
-          <div
-            class="col-md-6 img-container"
-          >
-            <div class="overlay d-flex align-items-center justify-content-center">
-              <img
-                src="Images/main-profile.jpeg"
-                alt=""
-                class="img-fluid"
-              />
+          <div class="col-md-6 img-container">
+            <div
+              class="overlay d-flex align-items-center justify-content-center"
+            >
+              <img src="Images/main-profile.jpeg" alt="" class="img-fluid" />
             </div>
           </div>
         </div>
-        <div class="next container-fluid p-0 m-0 d-flex align-items-center justify-content-between">
-            <div class="down">         
-            </div>
-            <div class="down">
-            </div>
-            <div class="down">
-            </div>
+        <div
+          class="next container-fluid p-0 m-0 d-flex align-items-center justify-content-between"
+        >
+          <div class="down"></div>
+          <div class="down"></div>
+          <div class="down"></div>
         </div>
       </section>
       <!--Second section-->
-      <section class="main container-fluid d-flex align-items-center justify-content-center flex-column unique" id="about">
+      <section
+        class="main container-fluid d-flex align-items-center justify-content-center flex-column unique"
+        id="about"
+      >
         <div class="container next-one two">
           <p class="text-left fw-bold">Profile</p>
         </div>
-        <div class="new-second row container p-0 my-2" >
+        <div class="new-second row container p-0 my-2">
           <div class="col-md-12">
             <div class="row">
               <div class="col-md-6">
                 <div class="row">
                   <div class="col-md-12">
-                    <div class="enter two" style="border:2px solid  #023d675a;border-radius:4px">
+                    <div
+                      class="enter two"
+                      style="border: 2px solid #023d675a; border-radius: 4px"
+                    >
                       <div class="img-here">
-                        <img class="img-fluid newhere" src="Images/img-1.jpg" style="float:left" style="border:2px solid  #023d675a" alt="">
+                        <img
+                          class="img-fluid newhere"
+                          src="Images/img-1.jpg"
+                          style="float: left"
+                          style="border: 2px solid #023d675a"
+                          alt="Photo"
+                        />
                       </div>
-                      <p class="des  mt-2 mx-2"><span class="name fs-3" style="color:#003153">I'm Evans Tetteh Owusu</span> <br>At the beginning of my quest to be a problem solver using contemporary technology, artificial intelligence was the primary point, so I engaged in self-teaching with it.</p>
-                      <p class="des m-2 mt-1"> Currently, I am an undergraduate student studying BSc.Telecommunications Engineering at Kwame Nkrumah University of Science & Technology, Ghana.</p>
+                      <p class="des mt-2 mx-2">
+                        <span class="name fs-3" style="color: #003153"
+                          >I'm Evans Tetteh Owusu</span
+                        >
+                        <br />At the beginning of my quest to be a problem
+                        solver using contemporary technology, artificial
+                        intelligence was the primary point, so I engaged in
+                        self-teaching with it. I earned a BSc. degree in
+                        Telecommunication Engineering, graduating in 2024 with
+                        First Class Honors at KNUST.
+                      </p>
+
+                      <div
+                        class="mt-lg-4 m-md-2"
+                        style="
+                          height: auto;
+                          background-color: #003153;
+                          border-radius: 6px 6px 0px 0px;
+                          margin-bottom: -10px;
+                        "
+                      >
+                        <p class="des m-2 mt-1 py-3 px-2" style="color: white">
+                          <span style="color: rgb(255, 94, 0)"
+                            ><i>New Role</i>&nbsp:&nbsp</span
+                          ><i
+                            >Currently, I am working as a teaching and research
+                            assistant at the Department of Telecommunication
+                            Engineering, KNUST.</i
+                          >
+                        </p>
+                      </div>
                     </div>
                   </div>
-                  <div class="col-md-12">
+                  <div class="col-md-12 anim-one">
                     <div class="row">
-                      <div class="col-12">
+                      <div class="col-md-12 mt-2">
+                        <h6
+                          class="m-1 fs-4 mt-2 achievy"
+                          style="color: #003153"
+                        >
+                          Research Interests
+                        </h6>
+                        <ul
+                          class="des listing"
+                          style="
+                            border: 2px solid #023d675a;
+                            border-radius: 4px;
+                          "
+                        >
+                          <li class="mt-2 mb-2 me-2">
+                            Internet of Things (IoT)
+                          </li>
+                          <li class="mt-2 mb-2 me-2">
+                            Artificial Intelligence
+                          </li>
+                          <li class="mt-2 mb-2 me-2">Big Data</li>
+                          <li class="mt-2 mb-2 me-2">Cybersecurity</li>
+                          <li class="mt-2 mb-2 me-2">
+                            Software-Defined Networking (SDN)
+                          </li>
+                          <li class="mt-2 mb-2 me-2">
+                            Data and Wireless Communication
+                          </li>
+                          <li class="mt-2 mb-2 me-2">
+                            Reconfigurable Intelligent Surfaces
+                          </li>
+                          <li class="mt-2 mb-2 me-2">5G and Beyond</li>
+                          <li class="mt-2 mb-2 me-2">Signal Processing</li>
+                        </ul>
+                      </div>
+
+                      <div class="w-100"></div>
+                      <!-- <div class="col-12">
                         <div class="row">
                           <div class="col-md-1"></div>
                           <div class="col-md-10 thishere anim-one">
-                            <div class="interest one" style="border:2px solid  #023d675a;border-radius:4px">
-                              <img class="img-fluid" src="Images/img-4.png" alt="">
+                            <div
+                              class="interest one"
+                              style="
+                                border: 2px solid #023d675a;
+                                border-radius: 4px;
+                              "
+                            >
+                              <img
+                                class="img-fluid"
+                                src="Images/img-4.png"
+                                alt=""
+                              />
                             </div>
                           </div>
                           <div class="col-md-1 mb-3"></div>
                         </div>
-                      </div> 
+                      </div> -->
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="row">
+                  <div class="col-md-12 anim-one">
+                    <h6 class="m-1 fs-4 mt-2 achievy" style="color: #003153">
+                      Research
+                    </h6>
+                    <ul
+                      class="des listing"
+                      style="border: 2px solid #023d675a; border-radius: 4px"
+                    >
+                      <li class="mt-2 mb-2 me-2">
+                        <b>Undegraduate Thesis: </b>Undegraduate Thesis: A
+                        Transformer-Based Deep Q Learning Approach for Dynamic
+                        Load Balancing in Software-Defined Networking (SDN)
+                        <a
+                          href="./research.html"
+                          style="text-decoration: underline; color: #003153"
+                          >Read More.</a
+                        >
+                      </li>
+                      <li class="mt-2 mb-2 me-2">
+                        <b>Ongoing Project:</b> Enhancing Teaching and Learning
+                        at KNUST through Sociopsychological Evaluation of
+                        Students Using Artificial Intelligence.
+                      </li>
+                      <li class="mt-2 mb-2 me-2">
+                        <b>Research Intern:</b>
+                        <a
+                          href="https://www.siscodegh.com/"
+                          class="these"
+                          target="_blank"
+                          >SISCODE</a
+                        >, Accra, Ghana.
+                      </li>
+                    </ul>
+                  </div>
                   <div class="col-md-12">
                     <div class="row">
                       <div class="col-md-6 col-lg-6 anim-one">
-                        <h6 class="fs-4" style="color:#003153">Tools</h6>
-                        <ul class="des listing" style="border:2px solid  #023d675a;border-radius:4px">
+                        <h6 class="fs-4" style="color: #003153">Libraries</h6>
+                        <ul
+                          class="des listing"
+                          style="
+                            border: 2px solid #023d675a;
+                            border-radius: 4px;
+                          "
+                        >
                           <li class="me-2 mt-2">Pandas</li>
                           <li class="me-2">Numpy</li>
                           <li class="me-2">Matplotlib</li>
                           <li class="me-2">Seaborn</li>
                           <li class="me-2 mb-2">TensorFlow</li>
                         </ul>
-                     </div>
-                     <div class="col-md-4 col-lg-4 anim-one">
-                       <h6 class="fs-4" style="color:#003153">Languages</h6>
-                       <ul class="des listing" style="border:2px solid  #023d675a;border-radius:4px">
-                         <li class="me-2 mt-2">Python</li>
-                         <li class="me-2 mb-2">R</li>
-                       </ul>
-                    </div>
-                    <div class="col-md-2 col-lg-2"></div>
+                      </div>
+                      <div class="col-md-6 col-lg-4 anim-one">
+                        <h6 class="fs-4" style="color: #003153">Languages</h6>
+                        <ul
+                          class="des listing"
+                          style="
+                            border: 2px solid #023d675a;
+                            border-radius: 4px;
+                          "
+                        >
+                          <li class="me-2 mt-2">Python</li>
+                          <li class="me-2 mb-2">R</li>
+                        </ul>
+                        <div class="w-100"></div>
+                        <h6 class="fs-4" style="color: #003153">Tools</h6>
+                        <ul
+                          class="des listing"
+                          style="
+                            border: 2px solid #023d675a;
+                            border-radius: 4px;
+                          "
+                        >
+                          <li class="me-2 mt-2">MATLAB</li>
+                          <li class="me-2 mb-2">Power Bi</li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
-                  <div class="col-md-12 anim-one">
-                    <h6 class="m-1 fs-4 mt-2 achievy" style="color:#003153">Research</h6>
-                    <ul class="des listing" style="border:2px solid #023d675a;border-radius:4px">
-                      <li class="mt-2 mb-2 me-2">Research Intern at <a href="https://www.siscodegh.com/" class="these" target="_blank">SISCODE</a>, Accra - Ghana.</li>
-                    </ul>
-                  </div>
-                  <div class="col-md-12 achievy mt-2 anim-one">
-                    <h6 class="mt-1 fs-4" style="color:#003153">Achievements</h6>  <p class="des">Click on &nbsp<i class="fa-solid fa-copy fa-1x"></i> &nbsp to copy Cert. no. for verification.</p>
-                    <ul class="des listing" style="border:2px solid  #023d675a;border-radius:4px">
-                      <li class="text mt-2">Certification HCIA - Data Communication, <a class="these" href="https://e.huawei.com/en/talent/#/cert/certificate-verification" target="_blank">Huawei</a>. <span class="clear" style="display:none">01010010180843465984723</span> <button class="mx-2 copy"  title="Copy"id="copy"style="outline:none;border:none"><i class="fa-solid fa-copy fa-1x"></i></button></li>
-                      <li class="me-2">Certification - Machine Learning & Deep Learning in Python & R, <a class="these" href="https://www.udemy.com/certificate/UC-c0c458e7-933f-412a-abd6-e54f9940137f/" target="_blank">Udemy</a>.</li>
-                      <li class="text me-2">Certification HCIA - Routing & Switching, <a class="these" href="https://e.huawei.com/en/talent/#/cert/certificate-verification/" target="_blank"> Huawei</a>.<span class="clear" style="display:none">01010010180843465984723</span> <button class="mx-2 copy" title="Copy"id="copy"style="outline:none;border:none"><i class="fa-solid fa-copy fa-1x"></i></button></li>
-                      <li class="me-2">Certification - Data Science: Python for Data Analysis, <a class="these" href="https://www.udemy.com/certificate/UC-f5fbc1a4-5ab8-43c4-9b8d-77b60e2455ac/" target="_blank">Udemy</a>.</li>
-                      <li class="text me-2">Passing Grade Certification ( AI ), <a class="these" href="https://ilearningx.huawei.com/portal/certificates/82b07014bc8a459da7e6cbcb529449c3
-                        Certificate Code" target="_blank">Huawei</a>.<span class="clear" style="display:none">EBG2020CCHW1100087MOOC202212024888</span> <button title="Copy"id="copy" class="mx-2 copy" style="outline:none;border:none"><i class="fa-solid fa-copy fa-1x"></i></button></li>
-                      <li class="text me-2">Passing Grade Certification ( AI ), Huawei <a class="these" href="https://ilearningx.huawei.com/portal/certificates/fedb0b59de5947c8976768d373ccaf02" target="_blank">HCIP-AI EI Developer.</a> <span class="clear" style="display:none">EBGTC00000591MOOC202212200232</span> <button title="Copy" class="mx-2 copy"  id="copy"style="outline:none;border:none"><i class="fa-solid fa-copy fa-1x"></i></button></li>
-                      <li class="me-2">Certification - SQL, <a class="these" href="https://www.udemy.com/certificate/UC-4c423cf7-9c03-4b9c-b201-47c12994c27d/" target="_blank">Udemy</a>.</li>
-                      <li class="me-2">Certification - The R Programming For Data Science, <a class="these" href="https://www.udemy.com/certificate/UC-cf717391-e717-4041-96d1-832b7007c0a8/" target="_blank">Udemy</a>.</li>
-                      <li class="mb-2 me-2">Huawei ICT Competition - Computing Track <br>(Linux Administration & Database Management)</li>
+
+                  <div class="col-md-12 achievy anim-one">
+                    <h6 class="fs-4" style="color: #003153">Achievements</h6>
+                    <p class="des">
+                      Click on &nbsp<i class="fa-solid fa-copy fa-1x"></i> &nbsp
+                      to copy Cert. no. for verification.
+                    </p>
+                    <ul
+                      class="des listing"
+                      style="border: 2px solid #023d675a; border-radius: 4px"
+                    >
+                      <li class="text mt-2">
+                        Certification HCIA - Data Communication,
+                        <a
+                          class="these"
+                          href="https://e.huawei.com/en/talent/#/cert/certificate-verification"
+                          target="_blank"
+                          >Huawei</a
+                        >.
+                        <span class="clear" style="display: none"
+                          >01010010180843465984723</span
+                        >
+                        <button
+                          class="mx-2 copy"
+                          title="Copy"
+                          id="copy"
+                          style="outline: none; border: none"
+                        >
+                          <i class="fa-solid fa-copy fa-1x"></i>
+                        </button>
+                      </li>
+                      <li class="me-2">
+                        Certification - Machine Learning & Deep Learning in
+                        Python & R,
+                        <a
+                          class="these"
+                          href="https://www.udemy.com/certificate/UC-c0c458e7-933f-412a-abd6-e54f9940137f/"
+                          target="_blank"
+                          >Udemy</a
+                        >.
+                      </li>
+                      <li class="text me-2">
+                        Certification HCIA - Routing & Switching,
+                        <a
+                          class="these"
+                          href="https://e.huawei.com/en/talent/#/cert/certificate-verification/"
+                          target="_blank"
+                        >
+                          Huawei</a
+                        >.<span class="clear" style="display: none"
+                          >01010010180843465984723</span
+                        >
+                        <button
+                          class="mx-2 copy"
+                          title="Copy"
+                          id="copy"
+                          style="outline: none; border: none"
+                        >
+                          <i class="fa-solid fa-copy fa-1x"></i>
+                        </button>
+                      </li>
+                      <li class="me-2">
+                        Certification - Data Science: Python for Data Analysis,
+                        <a
+                          class="these"
+                          href="https://www.udemy.com/certificate/UC-f5fbc1a4-5ab8-43c4-9b8d-77b60e2455ac/"
+                          target="_blank"
+                          >Udemy</a
+                        >.
+                      </li>
+                      <li class="text me-2">
+                        Passing Grade Certification ( AI ),
+                        <a
+                          class="these"
+                          href="https://ilearningx.huawei.com/portal/certificates/82b07014bc8a459da7e6cbcb529449c3
+                        Certificate Code"
+                          target="_blank"
+                          >Huawei</a
+                        >.<span class="clear" style="display: none"
+                          >EBG2020CCHW1100087MOOC202212024888</span
+                        >
+                        <button
+                          title="Copy"
+                          id="copy"
+                          class="mx-2 copy"
+                          style="outline: none; border: none"
+                        >
+                          <i class="fa-solid fa-copy fa-1x"></i>
+                        </button>
+                      </li>
+                      <li class="text me-2">
+                        Passing Grade Certification ( AI ), Huawei
+                        <a
+                          class="these"
+                          href="https://ilearningx.huawei.com/portal/certificates/fedb0b59de5947c8976768d373ccaf02"
+                          target="_blank"
+                          >HCIP-AI EI Developer.</a
+                        >
+                        <span class="clear" style="display: none"
+                          >EBGTC00000591MOOC202212200232</span
+                        >
+                        <button
+                          title="Copy"
+                          class="mx-2 copy"
+                          id="copy"
+                          style="outline: none; border: none"
+                        >
+                          <i class="fa-solid fa-copy fa-1x"></i>
+                        </button>
+                      </li>
+                      <li class="me-2">
+                        Certification - SQL,
+                        <a
+                          class="these"
+                          href="https://www.udemy.com/certificate/UC-4c423cf7-9c03-4b9c-b201-47c12994c27d/"
+                          target="_blank"
+                          >Udemy</a
+                        >.
+                      </li>
+                      <li class="me-2">
+                        Certification - The R Programming For Data Science,
+                        <a
+                          class="these"
+                          href="https://www.udemy.com/certificate/UC-cf717391-e717-4041-96d1-832b7007c0a8/"
+                          target="_blank"
+                          >Udemy</a
+                        >.
+                      </li>
+                      <li class="mb-2 me-2">
+                        Huawei ICT Competition - Computing Track <br />(Linux
+                        Administration & Database Management)
+                      </li>
                     </ul>
                   </div>
                   <div class="col-md-12"></div>
@@ -190,15 +472,21 @@
         </div>
       </section>
       <!--Last section-->
-      <section class="main container-fluid d-flex align-items-center justify-content-center flex-column" id="projects">
+      <section
+        class="main container-fluid d-flex align-items-center justify-content-center flex-column"
+        id="projects"
+      >
         <div class="container next-one two">
-          <p class="text-left fw-bold ">Projects</p>
+          <p class="text-left fw-bold">Projects</p>
         </div>
         <div class="container my-1;">
           <div class="row">
             <div class="col-md-12 first-column">
               <div class="row">
-                <div class="col-md-6 two one anim-one" style="background-color:whitesmoke">
+                <div
+                  class="col-md-6 two one anim-one"
+                  style="background-color: whitesmoke"
+                >
                   <div class="row">
                     <div class="col-12">
                       <div class="row">
@@ -206,14 +494,28 @@
                           <h6 class="fs-4 my-4">1. Kaggle Titanic</h6>
                         </div>
                         <div class="col-12">
-                          <p class="des mx-2">The use of Machine Learning to create a model that predicts which passengers survived the Titanic shipwreck.</p>
-                          <p><a href="https://github.com/otubrempong/Kaggle-Titanic" target="_blank" class="mx-2 view-code">Get Code <i class="fa-solid fa-arrow-right"></i></a></p>
+                          <p class="des mx-2">
+                            The use of Machine Learning to create a model that
+                            predicts which passengers survived the Titanic
+                            shipwreck.
+                          </p>
+                          <p>
+                            <a
+                              href="https://github.com/otubrempong/Kaggle-Titanic"
+                              target="_blank"
+                              class="mx-2 view-code"
+                              >Get Code <i class="fa-solid fa-arrow-right"></i
+                            ></a>
+                          </p>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6 one anim-one" style="background-color:rgb(170, 170, 188)">
+                <div
+                  class="col-md-6 one anim-one"
+                  style="background-color: rgb(170, 170, 188)"
+                >
                   <div class="row">
                     <div class="col-12">
                       <div class="row">
@@ -221,8 +523,25 @@
                           <h6 class="fs-4 my-4">2. Classification Tree</h6>
                         </div>
                         <div class="col-12">
-                          <p class="des mx-2">Utilizing decision tree classifier, bagging, random forest, xgboost, gradient boosting, and ada boost algorithms to categorize movie collections on whether they will win an Oscar prize or not and utilizing the hyperparameter tuning with GridSearchCV to compare their accuracy.</p>
-                          <p><a href="https://github.com/otubrempong/Classification-Tree" target="_blank" class="mx-2 diff">Get Code <i class="mx-2  fa-solid fa-arrow-right fa-flip"></i></a></p>
+                          <p class="des mx-2">
+                            Utilizing decision tree classifier, bagging, random
+                            forest, xgboost, gradient boosting, and ada boost
+                            algorithms to categorize movie collections on
+                            whether they will win an Oscar prize or not and
+                            utilizing the hyperparameter tuning with
+                            GridSearchCV to compare their accuracy.
+                          </p>
+                          <p>
+                            <a
+                              href="https://github.com/otubrempong/Classification-Tree"
+                              target="_blank"
+                              class="mx-2 diff"
+                              >Get Code
+                              <i
+                                class="mx-2 fa-solid fa-arrow-right fa-flip"
+                              ></i
+                            ></a>
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -232,7 +551,10 @@
             </div>
             <div class="col-md-12 first-column">
               <div class="row">
-                <div class="col-md-4 one anim-one"style="background-color:rgb(102, 179, 152);height:auto">
+                <div
+                  class="col-md-4 one anim-one"
+                  style="background-color: rgb(102, 179, 152); height: auto"
+                >
                   <div class="row">
                     <div class="col-12">
                       <div class="row">
@@ -240,14 +562,32 @@
                           <h6 class="fs-4 my-4">3. Random Forest</h6>
                         </div>
                         <div class="col-12">
-                          <p class="des mx-2">The random forest algorithm is an extension of the bagging method as it utilizes both bagging and feature randomness to create an uncorrelated forest of decision trees.</p>
-                          <p><a href="https://github.com/otubrempong/Random-Forest" target="_blank" class="mx-2 diff">Get Code <i class="mx-2  fa-solid fa-arrow-right fa-flip"></i></a></p>
+                          <p class="des mx-2">
+                            The random forest algorithm is an extension of the
+                            bagging method as it utilizes both bagging and
+                            feature randomness to create an uncorrelated forest
+                            of decision trees.
+                          </p>
+                          <p>
+                            <a
+                              href="https://github.com/otubrempong/Random-Forest"
+                              target="_blank"
+                              class="mx-2 diff"
+                              >Get Code
+                              <i
+                                class="mx-2 fa-solid fa-arrow-right fa-flip"
+                              ></i
+                            ></a>
+                          </p>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 one anim-one"style="background-color:rgb(102, 179, 152);height:auto">
+                <div
+                  class="col-md-4 one anim-one"
+                  style="background-color: rgb(102, 179, 152); height: auto"
+                >
                   <div class="row">
                     <div class="col-12">
                       <div class="row">
@@ -255,14 +595,28 @@
                           <h6 class="fs-4 my-4">4. CNN</h6>
                         </div>
                         <div class="col-12">
-                          <p class="des mx-2">This notebook contains Fashion-Mnist data classification and cat & dog classification using convolutional neural network and VGG-16.</p>
-                          <p><a href="https://github.com/otubrempong/CNN" target="_blank" class="mx-2 view-code">Get Code <i class="fa-solid fa-arrow-right"></i></a></p>
+                          <p class="des mx-2">
+                            This notebook contains Fashion-Mnist data
+                            classification and cat & dog classification using
+                            convolutional neural network and VGG-16.
+                          </p>
+                          <p>
+                            <a
+                              href="https://github.com/otubrempong/CNN"
+                              target="_blank"
+                              class="mx-2 view-code"
+                              >Get Code <i class="fa-solid fa-arrow-right"></i
+                            ></a>
+                          </p>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 one anim-one"style=";background-color:whitesmoke;height:auto">
+                <div
+                  class="col-md-4 one anim-one"
+                  style="background-color: whitesmoke; height: auto"
+                >
                   <div class="row">
                     <div class="col-12">
                       <div class="row">
@@ -270,8 +624,18 @@
                           <h6 class="fs-4 my-4">5. Sentiment Analysis</h6>
                         </div>
                         <div class="col-12">
-                          <p class="des mx-2">Employing machine learning algorithms to do text analysis on human language.</p>
-                          <p><a href="https://github.com/otubrempong/Sentiment-Analysis" target="_blank" class="mx-2 view-code">Get Code <i class="fa-solid fa-arrow-right"></i></a></p>
+                          <p class="des mx-2">
+                            Employing machine learning algorithms to do text
+                            analysis on human language.
+                          </p>
+                          <p>
+                            <a
+                              href="https://github.com/otubrempong/Sentiment-Analysis"
+                              target="_blank"
+                              class="mx-2 view-code"
+                              >Get Code <i class="fa-solid fa-arrow-right"></i
+                            ></a>
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -281,7 +645,10 @@
             </div>
             <div class="col-md-12 first-column">
               <div class="row">
-                <div class="col-md-5 two one anim-one" style="background-color:whitesmoke">
+                <div
+                  class="col-md-5 two one anim-one"
+                  style="background-color: whitesmoke"
+                >
                   <div class="row">
                     <div class="col-12">
                       <div class="row">
@@ -289,23 +656,51 @@
                           <h6 class="fs-4 my-4">6. Logistic Regression</h6>
                         </div>
                         <div class="col-12">
-                          <p class="des mx-2">This notebook includes Logistic Regression, KNN, and LDA-based categorization and house price prediction methods.</p>
-                          <p><a href="https://github.com/otubrempong/Logistic-Regression" target="_blank" class="mx-2 view-code">Get Code <i class="fa-solid fa-arrow-right"></i></a></p>
+                          <p class="des mx-2">
+                            This notebook includes Logistic Regression, KNN, and
+                            LDA-based categorization and house price prediction
+                            methods.
+                          </p>
+                          <p>
+                            <a
+                              href="https://github.com/otubrempong/Logistic-Regression"
+                              target="_blank"
+                              class="mx-2 view-code"
+                              >Get Code <i class="fa-solid fa-arrow-right"></i
+                            ></a>
+                          </p>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-7 one anim-one" style="background-color:rgb(170, 170, 188)">
+                <div
+                  class="col-md-7 one anim-one"
+                  style="background-color: rgb(170, 170, 188)"
+                >
                   <div class="row">
                     <div class="col-12">
                       <div class="row">
                         <div class="col-12">
-                          <h6 class="fs-4 my-4">7. Feature Engineering in Machine Learning</h6>
+                          <h6 class="fs-4 my-4">
+                            7. Feature Engineering in Machine Learning
+                          </h6>
                         </div>
                         <div class="col-12">
-                          <p class="des mx-2">Linear Discriminate Analysis for classification and the majority of machine learning's data preprocessing are both included in this notebook..</p>
-                          <p><a href="https://github.com/otubrempong/Feature-Engineering" target="_blank" class="mx-2 diff">Get Code <i class="fa-solid fa-arrow-right fa-flip"></i></a></p>
+                          <p class="des mx-2">
+                            Linear Discriminate Analysis for classification and
+                            the majority of machine learning's data
+                            preprocessing are both included in this notebook..
+                          </p>
+                          <p>
+                            <a
+                              href="https://github.com/otubrempong/Feature-Engineering"
+                              target="_blank"
+                              class="mx-2 diff"
+                              >Get Code
+                              <i class="fa-solid fa-arrow-right fa-flip"></i
+                            ></a>
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -316,8 +711,18 @@
             <div class="col-md-12 bot two">
               <div class="row">
                 <div class="col-3"></div>
-                <div class="col-6 d-flex align-items-center justify-content-center">
-                  <h6 class="mt-1"><a class="diff p-2" style="border:2px solid #003153; border-radius:4px;" href="https://github.com/otubrempong" target="_blank">View more<i class="mx-2 fa-solid fa-eye fa-1x"></i></a></h6>
+                <div
+                  class="col-6 d-flex align-items-center justify-content-center"
+                >
+                  <h6 class="mt-1">
+                    <a
+                      class="diff p-2"
+                      style="border: 2px solid #003153; border-radius: 4px"
+                      href="https://github.com/otubrempong"
+                      target="_blank"
+                      >View more<i class="mx-2 fa-solid fa-eye fa-1x"></i
+                    ></a>
+                  </h6>
                 </div>
                 <div class="col-3"></div>
               </div>
@@ -328,52 +733,97 @@
     </main>
     <footer>
       <!--Last section in the footer-->
-      <section class="container-fluid d-flex align-items-center justify-content-between flex-column unique" id="footer">
+      <section
+        class="container-fluid d-flex align-items-center justify-content-between flex-column unique"
+        id="footer"
+      >
         <div class="container next-new mt-3 two" id="contacts">
-          <p class="text-left fw-bold mt-4 get-int" style="color: #85D0D6">Get in touch</p>
+          <p class="text-left fw-bold mt-4 get-int" style="color: #85d0d6">
+            Get in touch
+          </p>
         </div>
-        <div class="container anim-one" style="border-top: 2px solid rgba(16, 170, 170, 0.263);">
+        <div
+          class="container anim-one"
+          style="border-top: 2px solid rgba(16, 170, 170, 0.263)"
+        >
           <div class="row">
             <div class="col-md-4 all-inv">
-              <h4 class="get-into mt-4">Address &nbsp;<i class="fa-solid fa-location-dot"></i></h4>
+              <h4 class="get-into mt-4">
+                Address &nbsp;<i class="fa-solid fa-location-dot"></i>
+              </h4>
               <p class="this">
-                AK-664-5064,<br>
-                Atonsu - Kumasi,<br>
+                AK-664-4783,<br />
+                Atonsu - Kumasi,<br />
                 Ashanti, Ghana.
               </p>
             </div>
             <div class="col-md-4 all-inv">
               <div class="col-md-12">
-                <h4 class="get-into mt-4">Message &nbsp;<i class="fa-solid fa-envelope"></i></h4>
-                <p class="this"><a href="mailto:oturempong@proton.me" class="this social-link">otubrempong@proton.me</a><br>
-                  <a href="mailto:otubrempong5@gmail.com" class="this social-link">otubrempong5@gmail.com</a>
+                <h4 class="get-into mt-4">
+                  Message &nbsp;<i class="fa-solid fa-envelope"></i>
+                </h4>
+                <p class="this">
+                  <a href="mailto:oturempong@proton.me" class="this social-link"
+                    >otubrempong@proton.me</a
+                  ><br />
+                  <a
+                    href="mailto:otubrempong5@gmail.com"
+                    class="this social-link"
+                    >otubrempong5@gmail.com</a
+                  >
                 </p>
               </div>
               <div class="col-md-12">
-                <h4 class="get-into mt-4">Phone &nbsp;<i class="fa-solid fa-phone"></i></h4>
-                <p class="this"><a href="tel:233592429966" class="this social-link">+233 (0)592429966</a><br>
-                  <a href="tel:233208796872" class="this social-link">+233 (0)208796872</a> 
+                <h4 class="get-into mt-4">
+                  Phone &nbsp;<i class="fa-solid fa-phone"></i>
+                </h4>
+                <p class="this">
+                  <a href="tel:233592429966" class="this social-link"
+                    >+233 (0)592429966</a
+                  ><br />
+                  <a href="tel:233208796872" class="this social-link"
+                    >+233 (0)208796872</a
+                  >
                 </p>
               </div>
             </div>
             <div class="col-md-4 all-inv">
               <h4 class="get-into mt-4">Let's connect !</h4>
               <div class="socials this">
-                <a href="https://www.linkedin.com/in/evans-owusu-827b52215?trk=contact-info" class="this social-link" target="_blank"><i class="fa-brands fa-linkedin-in fa-x"></i>&nbsp LinkedIn</a><br>
-                <a href="https://www.instagram.com/otubrempong" class="this social-link" target="_blank"><i class="fa-brands fa-instagram"></i>&nbsp Instagram</span></a> 
+                <a
+                  href="https://www.linkedin.com/in/evans-owusu-827b52215?trk=contact-info"
+                  class="this social-link"
+                  target="_blank"
+                  ><i class="fa-brands fa-linkedin-in fa-x"></i>&nbsp
+                  LinkedIn</a
+                ><br />
+                <a
+                  href="https://www.instagram.com/otubrempong"
+                  class="this social-link"
+                  target="_blank"
+                  ><i class="fa-brands fa-instagram"></i>&nbsp Instagram</a
+                >
               </div>
             </div>
           </div>
         </div>
         <div class="container-fluid last mt-3">
           <div class="container copys">
-            <p class="mt-3">Designed & Developed by <a class="social-link" href="https://github.com/workitoutsilas/Evans_PW" target="_blank">workitoutsilas</a>
+            <p class="mt-3">
+              Designed & Developed by
+              <a
+                class="social-link"
+                href="https://github.com/workitoutsilas/Evans_PW"
+                target="_blank"
+                >workitoutsilas</a
+              >
+            </p>
           </div>
         </div>
       </section>
     </footer>
-    <script  src="Bootstrap/bootstrap.min.js"></script>
-    <script  src="Bootstrap/jquery.min.js"></script>
-    <script  src="script.js"></script>
+    <script defer src="Bootstrap/bootstrap.min.js"></script>
+    <script defer src="Bootstrap/jquery.min.js"></script>
+    <script defer src="script.js"></script>
   </body>
 </html>

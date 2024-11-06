@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Bootstrap/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="Images/e.svg" />
+    <title>Evans Tetteh Owusu</title>
+    <style>
+      body {
+        overflow: hidden;
+        background-color: whitesmoke;
+      }
+      header,
+      main {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="container-fluid p-0 fixed-top">
+      <a
+        class="close-navbar-toggler collapsed"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+      </a>
+      <nav class="container navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand mx-1 my-0 p-0" href="./"
+            ><img class="new-img" src="Images/logo-2.png"
+          /></a>
+          <button
+            class="navbar-toggler mx-2 d-lg-none flex-column justify-content-around collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="toggler-icon top-bar"></span>
+            <span class="toggler-icon middle-bar"></span>
+            <span class="toggler-icon bottom-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse mx-2" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link mx-2 active"
+                  aria-current="page"
+                  href="./index.html#home"
+                  ><i class="fa-solid fa-house links"></i>Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="./index.html#about"
+                  ><i class="fa-solid fa-user links"></i>About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="./index.html#projects"
+                  ><i class="fa-solid fa-laptop-file links"></i>Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="./index.html#contacts"
+                  ><i class="fa-solid fa-phone links"></i>Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container-fluid p-0">
+      <section
+        class="container abstract d-flex align-items-center justify-content-between flex-column"
+        id="home"
+      >
+        <div class="row main-row">
+          <div class="col-12 col-xs-0 col-sm-0 col-md-0 col-lg-2"></div>
+
+          <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="main-text mt-4 p-xs-0 p-sm-0 p-md-2 p-lg-3">
+              <h3
+                class="main-topic text-left p-xs-2 p-sm-3 p-md-3 p-lg-3"
+                style="color: black"
+              >
+                A TRANSFORMER-BASED DEEP Q LEARNING APPROACH FOR DYNAMIC LOAD
+                BALANCING IN SOFTWARE-DEFINED NETWORKS (SDNs)
+              </h3>
+              <hr style="height: 4px; background: black; opacity: 1" />
+              <h5 class="sub-topic p-xs-1 p-sm-2 p-md-3 p-lg-3 m-0">
+                Research Summary
+              </h5>
+              <div class="overflow-container">
+                <div class="overflow my-2">
+                  <p class="abstract-description px-2">
+                    This study proposes a novel approach for dynamic load
+                    balancing in Software-Defined Networks (SDNs) using a
+                    Transformer-based Deep Q-Network (DQN). Traditional load
+                    balancing mechanisms, such as Round Robin (RR) and Weighted
+                    Round Robin (WRR), are static and often struggle to adapt to
+                    fluctuating traffic conditions, leading to inefficiencies in
+                    network performance. In contrast, SDNs offer centralized
+                    control and flexibility, providing an ideal platform for
+                    implementing machine learning-driven optimization
+                    strategies. The core of this research combines a Temporal
+                    Fusion Transformer (TFT) for accurate traffic prediction
+                    with a DQN model to perform real-time dynamic load
+                    balancing. The TFT model predicts future traffic loads,
+                    which the DQN uses as input, allowing it to make intelligent
+                    routing decisions that optimize throughput, minimize
+                    latency, and reduce packet loss. The proposed model was
+                    tested against RR and WRR in simulated environments with
+                    varying data rates, and the results demonstrate significant
+                    improvements in network performance. For the 500MB data
+                    rate, the DQN model achieved an average throughput of 0.275
+                    compared to 0.202 and 0.205 for RR and WRR, respectively.
+                    Additionally, the DQN recorded lower average latency and
+                    packet loss. In the 1000MB simulation, the DQN model
+                    outperformed the traditional methods in throughput, latency,
+                    and packet loss, reinforcing its effectiveness in managing
+                    network loads dynamically. This research presents an
+                    important step towards enhancing network performance through
+                    the integration of machine learning models within SDNs,
+                    potentially paving the way for more adaptive, intelligent
+                    network management systems.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-xs-0 col-sm-0 col-md-0 col-lg-2"></div>
+        </div>
+      </section>
+    </main>
+    <script src="Bootstrap/bootstrap.min.js"></script>
+    <script src="Bootstrap/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

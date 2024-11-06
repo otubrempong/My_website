@@ -274,20 +274,21 @@ header {
   justify-content: center;
 }
 h1 {
-  margin-top: 30px;
-  font-family: "Comfortaa";
+  margin-top: 20px;
+  font-family: "Poppins";
   letter-spacing: 4px;
-  -webkit-text-stroke: 2px #03182d;
-  color: transparent;
-  margin-bottom: 10px;
+  -webkit-text-stroke: 1px #00060c9a;
+  color: white;
+  /* margin-bottom: 0px; */
   transform: translate(0px, -100px);
   transition: all 0.9s ease;
   opacity: 0;
 }
 .heading span {
-  letter-spacing: 5px;
+  letter-spacing: 0px;
   color: #002d62;
   font-family: "Poppins";
+  font-weight: 900;
 }
 .anim-one {
   opacity: 0;
@@ -358,8 +359,8 @@ h6,
 }
 .intro-text {
   color: var(--main-color);
-  letter-spacing: 2px;
-  font-size: 1.4rem;
+  letter-spacing: 1px;
+  /* font-size: 1.4rem; */
   font-family: "Poppins";
   transform: translate(0px, 20px);
   transition: all 0.3s ease;
@@ -368,7 +369,7 @@ h6,
 /* Second child in main-first section */
 .overlay {
   width: 100%;
-  height: 500px;
+  height: 470px;
   z-index: 1;
   position: relative;
   transition: all 0.3s ease;
@@ -384,10 +385,10 @@ h6,
   position: absolute;
   content: "";
   width: 300px;
-  height: 460px;
+  height: 440px;
   background-color: var(--main-color);
-  border-radius: 4px;
-  transform: translate(-30px, -20px);
+  border-radius: 10px;
+  transform: translate(-20px, -15px);
   z-index: -2;
 }
 .overlay img {
@@ -564,7 +565,7 @@ h6,
   width: 125px;
 }
 .img-here {
-  margin-top: 15px;
+  margin-top: 10px;
   width: 200px;
   height: 210px;
   margin-right: 8px;
@@ -716,7 +717,7 @@ h5 {
     margin: 10px;
   }
   .intro-text {
-    margin-top: 50px;
+    margin-top: 20px;
   }
   .des {
     font-size: 16px;
@@ -791,6 +792,24 @@ h5 {
   .intro-text {
     margin-top: 0;
   }
+  .img-here {
+    margin-top: 10px;
+    width: 200px;
+    height: 210px;
+    margin-right: 8px;
+    margin-left: 5px;
+    margin-bottom: 1px;
+    position: relative;
+    float: left;
+  }
+  .img-here:before {
+    content: "";
+    position: none;
+    width: 0px;
+    height: 0px;
+    border-radius: 0px;
+    bottom: 0;
+  }
   .fade-in {
     transition-delay: 0.3s;
   }
@@ -842,7 +861,10 @@ h5 {
     background: var(--main-color);
   }
   .intro-text {
-    margin-top: 60px;
+    margin-top: 20px;
+  }
+  h1 {
+    -webkit-text-stroke: 0px #00060c9a;
   }
   .tools-Langs {
     margin-top: 15px;
@@ -918,6 +940,59 @@ h5 {
   .navbar-brand,
   .nav-link.active {
     text-shadow: none;
+  }
+}
+
+/* Research page styling */
+.main-row {
+  margin: 50px 0px 30px 0;
+}
+
+.main-topic,
+.sub-topic {
+  font-family: "Poppins";
+}
+/* Styling the scrollbar elements */
+.overflow-container {
+  border: 2px solid black;
+}
+.overflow {
+  max-height: 380px;
+  overflow: hidden;
+  overflow-y: scroll;
+  position: relative;
+}
+.overflow::-webkit-scrollbar {
+  width: 5px;
+}
+.overflow::-webkit-scrollbar-track {
+  background: transparent;
+  opacity: 0;
+}
+.overflow::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+  border: 2px solid rgba(223, 216, 216, 0.344);
+  transition: all 0.3s ease;
+}
+.abstract-description {
+  font-family: sans-serif;
+  font-weight: 500;
+  text-align: justify !important;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.main-text {
+  border: 2px solid rgba(0, 0, 0, 0.774);
+}
+@media (max-width: 567px) {
+  .main-text {
+    border: none;
+  }
+  .overflow-container {
+    margin-top: 8px;
+  }
+  .overflow {
+    max-height: 300px;
   }
 }
 /*
